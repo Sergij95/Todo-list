@@ -2,51 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="shortcut icon"
-      href="https://placekitten.com/96/139"
-      type="image/x-icon"
-    />
-    <script
-      src="https://unpkg.com/htmx.org@1.9.10"
-      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-      crossorigin="anonymous"
-    ></script>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <main>
-      <section>
-        <img src="img/featur.png" alt="icon-social" />
-        <h2>FEATURES</h2>
+    <div class="container">
+      <h1>Todo List For The Day</h1>
+      <input
+        type="text"
+        id="new-todo"
+        name="new-todo"
+        placeholder="Enter new task"
+      />
+      <button id="add-todo">Add</button>
+      <ul id="todo-list"></ul>
+    </div>
 
-        <h3 class="w-text-content">
-          Designing Tomorrow's Classics Today for You
-        </h3>
-        <p>
-          By incorporating both cozy and ergonomic elements into interiors, we
-          not only enhance the aesthetic appeal of spaces but also prioritize
-          the health and well-being of our clients, ultimately creating
-          environments that are both visually pleasing and physically
-          supportive.
-        </p>
-
-        <ul>
-          <li>Environmental materials</li>
-          <li>Professional staff</li>
-          <li>Quality assurance</li>
-          <li>Unique items</li>
-          <li>Design services</li>
-          <li>Indidivual approach</li>
-          <li>Promos and discounts</li>
-          <li>Vast assortment</li>
-          <li>Premium quality</li>
-          <li>Warranty</li>
-        </ul>
-        <nav><a href="#">Learn More</a></nav>
-      </section>
-    </main>
+    <script src="js/scrip.js"></script>
   </body>
 </html>
